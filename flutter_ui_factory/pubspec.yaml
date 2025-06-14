@@ -1,13 +1,13 @@
-name: flutter_ui_factory  # Must be unique on pub.dev
-description: A Flutter UI factory for generating complete screens and components without Figma.
-version: 1.0.0  # Follow semantic versioning (e.g., 1.0.0+1)
-homepage: https://github.com/yourusername/flutter_ui_factory  # Optional but recommended
-repository: https://github.com/yourusername/flutter_ui_factory.git  # Optional
-issue_tracker: https://github.com/yourusername/flutter_ui_factory/issues  # Optional
+name: flutter_ui_factory
+description: 🛠️ Generate production-ready Flutter screens programmatically - ecommerce, social, finance UIs and 50+ components without design tools.
+version: 1.0.0+1  # Add build number
+homepage: https://github.com/emmanuel2099/flutter_ui_factory
+repository: https://github.com/emmanuel2099/flutter_ui_factory.git
+issue_tracker: https://github.com/emmanuel2099/flutter_ui_factory/issues
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'  # Ensure Dart 3+ compatibility
-  flutter: '>=3.0.0'  # Specify Flutter version
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.0.0'
 
 dependencies:
   flutter:
@@ -16,7 +16,15 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0  # For code analysis
+  flutter_lints: ^5.0.0
+  very_good_analysis: ^5.1.0 # Adds professional linting
 
 flutter:
   uses-material-design: true
+
+topics: # Important for discovery!
+  - flutter
+  - ui-kit
+  - ui-components
+  - code-generation
+  - productivity
