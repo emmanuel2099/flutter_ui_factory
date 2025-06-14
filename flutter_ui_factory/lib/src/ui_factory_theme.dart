@@ -109,7 +109,7 @@ class UIFactoryTheme {
           ),
         ),
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         elevation: _elevation,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(_borderRadius),
@@ -137,7 +137,7 @@ class UIFactoryTheme {
           ),
         ),
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         elevation: _elevation,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(_borderRadius),
